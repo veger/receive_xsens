@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="receive_xsens" type="receive_xsens" name="receive_xsens" output="screen" />
+</launch>

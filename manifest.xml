@@ -1,0 +1,14 @@
+<package>
+
+  <description brief="receive_xsens">
+
+     receive_xsens
+
+  </description>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+
