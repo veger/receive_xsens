@@ -1,5 +1,7 @@
 This is a ROS driver for Xsens MTi-10 and MTi-100 series motion trackers. Xsens has changed the message type for its 4th generation sensors. Drivers using the old message type are not compatible with the MTi-10 and MTi-100 series. To use this driver, a license number is required for the MT Software Suite. Setting up the sensor also becomes more complicated. 
 
+Wiki page: http://wiki.ros.org/receive_xsens
+
 How to use:
 
   1) Download the MT Software Suite and install it on a Windows machine (you may skip this step and use default sensor configuration), then download the MT SDK for Linux and install it on a Linux machine (this should be the machine that ROS is installed on).

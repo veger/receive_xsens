@@ -7,7 +7,7 @@
      ROS driver for Xsens MTi-10 and MTi-100 series motion trackers
 
   </description>
-  <author>Ji Zhang/zhangji@cmu.edu, Silvio Maeta</author>
+  <author>Ji Zhang, Silvio Maeta</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
   <url>http://wiki.ros.org/receive_xsens</url>
