@@ -20,4 +20,4 @@ Here is the software website: http://www.xsens.com/en/mt-software-suite
 
 Note:
 
-The current driver does not publish data from GPS. If used with MTi-G-700, minor code change may be needed. Users can change /src/main.cpp file between lines 176-210. Also, if magnetic field data is needed, uses can uncommand lines 213-215 and add a corresponding ROS message publisher under line 110. Majority of the code is taken from Xsens Linux examples and is self explanatory. Please remember to configure the sensor to return data that you need, using the MT Manager on a Windows machine.
+The current driver does not publish data from GPS. If used with MTi-G-700, minor code change may be needed. Users can change /src/main.cpp file between lines 176-210. Also, if magnetic field data is needed, users can uncommand lines 213-215 and add a corresponding ROS message publisher under line 110. Majority of the code is taken from Xsens Linux examples and is self explanatory. Please remember to configure the sensor to return data that you need, using the MT Manager on a Windows machine.
