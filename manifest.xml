@@ -2,9 +2,11 @@
 
   <description brief="receive_xsens">
 
-     receive_xsens
+     ROS driver for Xsens MTi-10 and MTi-100 series motion trackers
 
   </description>
+  <author>Ji Zhang/zhangji@cmu.edu, Silvio Maeta</author>
+  <license>BSD</license>
   <depend package="roscpp"/>
   <depend package="std_msgs"/>
   <depend package="sensor_msgs"/>
