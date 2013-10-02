@@ -7,6 +7,8 @@
   </description>
   <author>Ji Zhang/zhangji@cmu.edu, Silvio Maeta</author>
   <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://wiki.ros.org/receive_xsens</url>
   <depend package="roscpp"/>
   <depend package="std_msgs"/>
   <depend package="sensor_msgs"/>
