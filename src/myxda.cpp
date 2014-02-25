@@ -53,7 +53,7 @@ void MyXda::openPorts()
 	for(XsPortInfoArray::const_iterator i = portinfo.begin(); i != portinfo.end(); ++i)
 	{
 		printf("Opening port %s @ %d baud, device Id = %s\n", i->portName().toStdString().c_str(), i->baudrate(), i->deviceId().toString().toStdString().c_str());
-		xsControl()->openPort(i->portNumber(), i->baudrate());
+		xsControl()->openPort(i->portName(), i->baudrate());
 	}
 }
 
